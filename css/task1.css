@@ -1,0 +1,10 @@
+*{margin:0;padding: 0;}
+/*
+自适应：调整浏览器的宽度不会出现滚动条，小格子会随着窗口宽度大小变化，不会变形
+利用宽度百分比，padding-bottom百分比，来实现高度自适应
+*/
+.wrap{width: 100%;padding-bottom:100%;}
+.box{width: 32%;padding-bottom:32%;background: #e78326;border-radius: 5%; margin: 1%;float: left;}
+.row-first{clear: both;margin-left: 0px;}
+.row-last{margin-right: 0px;}
+.wrap button{width: 100%;padding:3% 0;border:solid 3px #e78326;margin: 5% 0;background: #fff;font-size: 30px;color: #e78326;}

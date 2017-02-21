@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/task1.css">
+	<script src="js/task1.js"></script>
+	<title>九宫格</title>
+</head>
+<body>
+	<div class="wrap">
+		<div id="box1" class="box row-first"></div>
+		<div id="box2" class="box"></div>
+		<div id="box3" class="box row-last"></div>
+		<div id="box4" class="box row-first"></div>
+		<div id="box5" class="box"></div>
+		<div id="box6" class="box row-last"></div>
+		<div id="box7" class="box row-first"></div>
+		<div id="box8" class="box"></div>
+		<div id="box9" class="box row-last"></div>
+		<div class="clear"></div>
+		<div class="but">
+		<button onmouseover="myOver(this)" onmouseleave="myLeave(this)" onclick="startFlash()">开始闪</button>
+		<button onmouseover="myOver(this)" onmouseleave="myLeave(this)" onclick="stopFlash()">结束闪</button>
+		</div>
+	</div>
+</body>
+</html>
